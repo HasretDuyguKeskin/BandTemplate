@@ -1,0 +1,52 @@
+body{
+    font-family: "Lato", sans-serif;  
+}
+
+nav {
+    background-color: black;
+}
+/* nav ul.navbar-nav li:hover {
+    background-color: var(--white);
+    color: black !important;
+    opacity: .8;
+}  */
+
+nav ul li:hover{
+    background-color: #ffffffff;
+    border-radius: 3px 15px 3px 15px;
+    transition: all 0.4s linear;
+}
+nav ul li:hover a{
+    color: black  !important;
+}
+
+nav i:hover{
+   background-color: red;
+   padding: .7em;
+}
+
+footer i:hover{
+    opacity: .7;
+}
+
+.black{
+    background-color: black;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
+
+button div#tour:hover{
+    background-color: gray;
+}
+.btn-sub{
+   background-color: black;
+   color: white;
+}
+
+.btn-sub:hover{
+    background-color: gray;
+    color:black;
+}
